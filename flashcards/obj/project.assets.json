@@ -24028,11 +24028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hagen\\OneDrive\\Documents\\flashcards\\flashcards\\flashcards.csproj",
+      "projectUniqueName": "C:\\Users\\hagen\\source\\repos\\flashcards\\flashcards\\flashcards.csproj",
       "projectName": "flashcards",
-      "projectPath": "C:\\Users\\hagen\\OneDrive\\Documents\\flashcards\\flashcards\\flashcards.csproj",
+      "projectPath": "C:\\Users\\hagen\\source\\repos\\flashcards\\flashcards\\flashcards.csproj",
       "packagesPath": "C:\\Users\\hagen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hagen\\OneDrive\\Documents\\flashcards\\flashcards\\obj\\",
+      "outputPath": "C:\\Users\\hagen\\source\\repos\\flashcards\\flashcards\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

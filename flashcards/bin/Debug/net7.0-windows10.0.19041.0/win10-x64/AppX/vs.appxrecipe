@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>9e71c476-ed15-4336-8056-03cdc0d53f46</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\hagen\source\repos\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>D66E42138991B0F51FAFBF49C347FC4CB10EC8301632E884A24DEF419DB0CB5E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>9e71c476-ed15-4336-8056-03cdc0d53f46_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9e71c476-ed15-4336-8056-03cdc0d53f46_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,32 +26,32 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\hagen\source\repos\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-30T17:40:30.940</Modified>
+      <Modified>2023-11-30T17:45:05.327</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2023-11-30T17:40:30.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\flashcards.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\flashcards.runtimeconfig.json">
       <PackagePath>flashcards.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-30T17:40:30.269</Modified>
+      <Modified>2023-11-30T17:45:04.798</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\flashcards.dll">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\flashcards.dll">
       <PackagePath>flashcards.dll</PackagePath>
-      <Modified>2023-11-30T17:40:28.541</Modified>
+      <Modified>2023-11-30T17:45:03.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>flashcards.exe</PackagePath>
-      <Modified>2023-11-30T17:40:28.570</Modified>
+      <Modified>2023-11-30T17:45:03.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\flashcards.deps.json">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\flashcards.deps.json">
       <PackagePath>flashcards.deps.json</PackagePath>
-      <Modified>2023-11-30T17:40:30.124</Modified>
+      <Modified>2023-11-30T17:45:04.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hagen\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.13\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -933,271 +933,271 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-06-30T21:50:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-11-29T22:21:12.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-11-29T22:21:31.606</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-11-29T22:21:31.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-11-29T22:21:31.654</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-11-29T22:21:31.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-11-29T22:21:31.889</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-11-29T22:21:12.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-11-29T22:21:12.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Urbanist-VariableFont_wght.ttf">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Urbanist-VariableFont_wght.ttf">
       <PackagePath>Urbanist-VariableFont_wght.ttf</PackagePath>
       <Modified>2023-11-29T23:12:52.612</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-11-30T04:58:07.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:58:07.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-11-30T04:58:07.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-11-30T04:58:07.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-11-30T04:58:07.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-11-30T04:58:07.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-11-30T04:58:07.288</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-11-30T04:58:07.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-11-30T04:58:07.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-11-30T04:58:07.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-11-30T04:58:07.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-11-30T04:58:07.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-11-30T04:58:07.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-11-30T04:58:07.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-11-30T04:58:07.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-11-30T04:58:07.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:58:07.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-11-30T04:58:07.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-11-30T04:58:07.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-11-30T04:58:07.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-11-30T04:58:07.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-11-30T04:58:07.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-11-30T04:58:07.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-11-30T04:58:07.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-11-30T04:58:07.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-11-30T04:58:07.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:58:07.359</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-11-30T04:58:07.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-11-30T04:58:07.371</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-11-30T04:58:07.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-11-30T04:58:07.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:58:07.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-11-30T04:58:07.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-11-30T04:58:07.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-11-30T04:58:07.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-11-30T04:58:07.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:58:07.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-11-30T04:58:07.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-11-30T04:58:07.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-11-30T04:58:07.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-11-30T04:58:07.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:58:07.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-11-30T04:58:07.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-11-30T04:58:07.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-11-30T04:58:07.455</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-11-30T04:58:07.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:35:48.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-11-30T04:35:48.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-11-30T04:35:48.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-11-30T04:35:48.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-11-30T04:35:48.634</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\download.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\download.scale-100.png">
       <PackagePath>download.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:57:55.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\flip.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\flip.scale-100.png">
       <PackagePath>flip.scale-100.png</PackagePath>
       <Modified>2023-11-30T00:41:10.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
       <Modified>2023-11-30T00:40:26.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\next.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\next.scale-100.png">
       <PackagePath>next.scale-100.png</PackagePath>
       <Modified>2023-11-30T00:40:41.865</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
       <PackagePath>plus.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:38:35.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\prev.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\prev.scale-100.png">
       <PackagePath>prev.scale-100.png</PackagePath>
       <Modified>2023-11-30T00:40:28.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hagen\source\repos\flashcards\flashcards\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-100.png">
       <PackagePath>trash.scale-100.png</PackagePath>
       <Modified>2023-11-30T04:37:52.966</Modified>
     </AppxPackagedFile>

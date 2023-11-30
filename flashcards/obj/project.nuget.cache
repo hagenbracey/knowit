@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ijzqE6uxkvfOVt2AJOC9Iyf4RIcSwc9/M7IBxA+YvFo710aYun70+jCrHWdpkqdWwPZZv1knEf80NgXg/ABW4w==",
+  "dgSpecHash": "Qv2fQFLFXKB3ubm1t+KOpUW1KsDQr9pHlZ4zGR7pZA9Ia2EqzHwp06hn/0wFa5d77JKhuNnQ10pmD8kouMVDqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hagen\\OneDrive\\Documents\\flashcards\\flashcards\\flashcards.csproj",
+  "projectFilePath": "C:\\Users\\hagen\\source\\repos\\flashcards\\flashcards\\flashcards.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hagen\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\hagen\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
