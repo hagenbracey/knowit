@@ -6,59 +6,63 @@ using System.Threading.Tasks;
 
 namespace flashcards
 {
-    internal class Deck
+    [Serializable]
+    public class Deck
     {
-        private string name;
-        private List<Flashcard> cards;
+        public List<Flashcard> Cards { get; set; }
 
         public Deck()
         {
-            name = "";
-            cards = new List<Flashcard>();
+            Cards = new List<Flashcard>();
+        }
+
+        public int GetSize()
+        {
+            return Cards.Count;
         }
 
         public void AddCard(Flashcard _card, int _index)
         {
-            if (cards.ElementAtOrDefault(_index) == null)
+            if (Cards.ElementAtOrDefault(_index) == null)
             {
-                cards.Add(_card);
+                Cards.Add(_card);
             }
             else
             {
-                cards.Insert(_index, _card);
+                Cards.Insert(_index, _card);
             }
         }
 
-        public Flashcard GetNext(int _index)
+        public void UpdateCard(string _front, string _back, int _index)
         {
-            if (cards.ElementAtOrDefault(_index + 1) == null)
+            Flashcard card = new Flashcard();
+            card.Front = _front;
+            card.Back = _back;
+            if (CardAt(_index) != null)
             {
-                return null;
+                Cards[_index] = card;
             }
             else
             {
-                return cards.ElementAtOrDefault(_index + 1);
+                Cards.Insert(_index, card);
             }
         }
 
-        public Flashcard GetPrev(int _index)
+        public Flashcard CardAt(int _index)
         {
-            if (cards.ElementAtOrDefault(_index - 1) == null)
-            {
+            if (Cards.ElementAtOrDefault(_index) == null)
                 return null;
-            }
             else
-            {
-                return cards.ElementAtOrDefault(_index - 1);
-            }
+                return Cards.ElementAtOrDefault(_index);
         }
 
         public void DeleteCard(int _index)
         {
-            if (cards.ElementAtOrDefault(_index) != null)
+            if (Cards.ElementAtOrDefault(_index) != null)
             {
-                cards.RemoveAt(_index);
+                Cards.RemoveAt(_index);
             }
         }
     }
+
 }

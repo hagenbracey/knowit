@@ -1,1 +1,1 @@
-C:\Users\hagen\source\repos\flashcards\flashcards\flashcards.csproj;x64
+C:\Users\hagen.bracey\Source\Repos\flashcards\flashcards\flashcards.csproj;x64

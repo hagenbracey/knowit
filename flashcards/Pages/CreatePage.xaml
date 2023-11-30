@@ -14,18 +14,41 @@
                              VerticalOptions="Center"
                              HorizontalOptions="Center">
 
-        <ImageButton Source="plus.png"
+            <ImageButton Source="plus.png"
                      BackgroundColor="#065143"
                      Margin="0, 0, 0, 20"
+                     Clicked="OnNew"
                      Scale="1.5"/>
 
-        <ImageButton Source="trash.png"
+            <ImageButton Source="trash.png"
                      BackgroundColor="#065143"
                      Margin="0, 20, 0, 0"
+                         Clicked="OnDelete"
                      Scale="1.5"/>
-        
-            
+
+
         </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Column="1"
+                             Grid.Row="2"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center">
+
+            <Label Text=""
+                   MinimumWidthRequest="40"
+                   MinimumHeightRequest="40"
+                   x:Name="cardNumLbl"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   FontFamily="Urbanist"
+                   Padding="5"
+                   FontSize="40"
+                   BackgroundColor="#D9FFEE"
+                   TextColor="Black"/>
+
+
+        </VerticalStackLayout>
+        
         <Rectangle Grid.Column="1"
                Grid.Row="0"
                Grid.RowSpan="6"
@@ -51,9 +74,11 @@
            FontSize="80"/>
 
         <Grid Grid.Row="2"
-              Grid.Column="3" >
-            
+              Grid.Column="3"
+              RowDefinitions="300, 70">
+
             <Editor BackgroundColor="White"
+                    Grid.Row="0"
                     Margin="10"
                     TextColor="Black"
                     HorizontalTextAlignment="Center"
@@ -63,7 +88,19 @@
                     AutoSize="Disabled"
                     TextChanged="Editor_TextChanged"
                     x:Name="textEditor"/>
-            
+
+            <Entry x:Name="titleBar"
+                   Grid.Row="1"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   FontSize="30"
+                   IsSpellCheckEnabled="False"
+                   BackgroundColor="#05493c"
+                   TextColor="#D9FFEE"
+                   Text="Deck Name"
+                   FontFamily="Urbanist"
+                   MaxLength="35"/>
+
         </Grid>
 
         <Grid
@@ -115,7 +152,7 @@
                          HorizontalOptions="Center"
                          VerticalOptions="Center"
                          Scale=".75"
-                         Clicked="OnHome"
+                         Clicked="OnSave"
                          Grid.Column="4"/>
         </Grid>
 

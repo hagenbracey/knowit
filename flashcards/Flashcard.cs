@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace flashcards
 {
-    internal class Flashcard
+    [Serializable]
+    public class Flashcard
     {
         private string? front = null;
+
         private string? back = null;
 
         public Flashcard()
@@ -25,6 +28,7 @@ namespace flashcards
             }
         }
 
+        [XmlElement]
         public string Front
         {
             get
@@ -38,6 +42,7 @@ namespace flashcards
             }
         }
 
+        [XmlElement]
         public string Back
         {
             get
@@ -60,4 +65,5 @@ namespace flashcards
             }
         }
     }
+
 }
