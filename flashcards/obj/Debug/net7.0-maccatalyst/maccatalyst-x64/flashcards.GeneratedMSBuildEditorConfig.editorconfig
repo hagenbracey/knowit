@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = flashcards
+build_property.ProjectDir = C:\Users\hagen\OneDrive\Documents\flashcards\flashcards\
+
+[C:/Users/hagen/OneDrive/Documents/flashcards/flashcards/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = flashcards.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/hagen/OneDrive/Documents/flashcards/flashcards/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = flashcards.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/hagen/OneDrive/Documents/flashcards/flashcards/Pages/CreatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = flashcards.Pages.CreatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CreatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CreatePage.xaml
+
+[C:/Users/hagen/OneDrive/Documents/flashcards/flashcards/Pages/MainMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = flashcards.Pages.MainMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainMenuPage.xaml
+
+[C:/Users/hagen/OneDrive/Documents/flashcards/flashcards/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = flashcards.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/hagen/OneDrive/Documents/flashcards/flashcards/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = flashcards.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
