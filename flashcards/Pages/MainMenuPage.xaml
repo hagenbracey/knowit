@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="flashcards.MainMenuPage"
-             Shell.NavBarIsVisible="False">
+             x:Class="flashcards.MainMenuPage">
+
 
     <Grid MinimumHeightRequest="600"
               MinimumWidthRequest="800"
               RowDefinitions="50, 50, 110, 250, 100"
               ColumnDefinitions="50, 50, 100, 400, 100, 50, 50"
-              BackgroundColor="#065143">
+              x:Name="bgGrid">
 
         <Rectangle Grid.Column="1"
                    Grid.Row="0"
                    Grid.RowSpan="6"
-                   BackgroundColor="#D9FFEE" />
+                   x:Name="rectOne"/>
 
 
         <Rectangle Grid.Column="5"
                    Grid.Row="0"
                    Grid.RowSpan="6"
-                   BackgroundColor="#D9FFEE" />
+                   x:Name="rectTwo"/>
 
         <Label Text="study it. learn it."
                FontFamily="Urbanist"
-               TextColor="#708D81"
+               x:Name="studyIt"
                Grid.Column="3"
                Grid.Row="1"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"
                FontSize="40"/>
-        
+
         <Label Text="knowit"
                FontFamily="Urbanist"
                Grid.Column="3"
@@ -39,43 +39,52 @@
                FontSize="125"/>
 
         <HorizontalStackLayout Grid.Row="3"
-                               Grid.Column="3"
+                               Grid.Column="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center">
-            
+
             <Button Text="Create"
-                    Margin="25"
+                    Margin="20, 0, 10, 0"
                     FontFamily="Urbanist"
-                    TextColor="#065143"
-                    BackgroundColor="#D9FFEE"
                     FontAttributes="Bold"
                     FontSize="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="OnCreate"/>
-            
+                    Clicked="OnCreate"
+                    x:Name="createBtn"/>
+
             <Button Text="Learn"
                     Margin="35"
                     FontFamily="Urbanist"
-                    TextColor="#065143"
-                    BackgroundColor="#D9FFEE"
                     FontAttributes="Bold"
                     FontSize="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="OnLearn"/>
-            
+                    Clicked="OnLearn"
+                    x:Name="learnBtn"/>
+
+            <Button Text="Settings"
+                    Margin="15"
+                    FontFamily="Urbanist"
+                    FontAttributes="Bold"
+                    FontSize="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="OnSettings"
+                    x:Name="settingsBtn"/>
+
         </HorizontalStackLayout>
 
-            <Label BackgroundColor="#708D81"
-               Grid.Row="4"
+        <Label Grid.Row="4"
                Grid.Column="0"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"
                Grid.ColumnSpan="7"
                MinimumHeightRequest="200"
-               MinimumWidthRequest="800"/>
+               MinimumWidthRequest="800"
+               x:Name="bottomBar"/>
 
     </Grid>
+
 
 </ContentPage>

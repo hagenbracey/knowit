@@ -7,7 +7,7 @@
           MinimumWidthRequest="800"
           RowDefinitions="20, 70, 360, 10, 100"
           ColumnDefinitions="50, 50, 50, 500, 50, 50, 50"
-          BackgroundColor="#065143">
+          x:Name="bgGrid">
 
         <VerticalStackLayout Grid.Column="5"
                              Grid.Row="2"
@@ -15,16 +15,16 @@
                              HorizontalOptions="Center">
 
             <ImageButton Source="plus.png"
-                     BackgroundColor="#065143"
                      Margin="0, 0, 0, 20"
                      Clicked="OnNew"
-                     Scale="1.5"/>
+                     Scale="1.5"
+                         x:Name="plusBtn"/>
 
             <ImageButton Source="trash.png"
-                     BackgroundColor="#065143"
                      Margin="0, 20, 0, 0"
                          Clicked="OnDelete"
-                     Scale="1.5"/>
+                     Scale="1.5"
+                         x:Name="trashBtn"/>
 
 
         </VerticalStackLayout>
@@ -43,35 +43,34 @@
                    FontFamily="Urbanist"
                    Padding="5"
                    FontSize="40"
-                   BackgroundColor="#D9FFEE"
                    TextColor="Black"/>
 
 
         </VerticalStackLayout>
-        
+
         <Rectangle Grid.Column="1"
                Grid.Row="0"
                Grid.RowSpan="6"
-               BackgroundColor="#D9FFEE"
                    Rotation="45"
-                   TranslationY="-200"/>
+                   TranslationY="-200"
+                   x:Name="rectangleOne"/>
 
 
         <Rectangle Grid.Column="5"
                Grid.Row="0"
                Grid.RowSpan="6"
-               BackgroundColor="#D9FFEE"
                    Rotation="-45"
-                   TranslationY="-200" />
+                   TranslationY="-200"
+                   x:Name="rectangleTwo"/>
 
         <Label Text="create"
            FontFamily="Urbanist"
-               TextColor="#D9FFEE"
            Grid.Column="3"
            Grid.Row="1"
            HorizontalTextAlignment="Center"
            VerticalTextAlignment="Center"
-           FontSize="80"/>
+           FontSize="80"
+               x:Name="topText"/>
 
         <Grid Grid.Row="2"
               Grid.Column="3"
@@ -95,8 +94,6 @@
                    VerticalTextAlignment="Center"
                    FontSize="30"
                    IsSpellCheckEnabled="False"
-                   BackgroundColor="#05493c"
-                   TextColor="#D9FFEE"
                    Text="Deck Name"
                    FontFamily="Urbanist"
                    MaxLength="35"/>
@@ -104,7 +101,6 @@
         </Grid>
 
         <Grid
-            BackgroundColor="#708D81"
             Grid.Row="4"
             Grid.Column="0"
             HorizontalOptions="Center"
@@ -113,47 +109,48 @@
             MinimumHeightRequest="200"
             MinimumWidthRequest="800"
             RowDefinitions="90"
-            ColumnDefinitions="160, 160, 160, 160, 160">
+            ColumnDefinitions="160, 160, 160, 160, 160"
+                         x:Name="bottomBar">
 
             <ImageButton Source="home.png"
-                         BackgroundColor="#708D81"
                          Scale=".75"
                          Grid.Column="0"
                          Clicked="OnHome"
                          HorizontalOptions="Center"
-                         VerticalOptions="Center" />
+                         VerticalOptions="Center"
+                         x:Name="homeBtn"/>
 
             <ImageButton Source="prev.png"
-                         BackgroundColor="#708D81"
                          Scale=".75"
                          Clicked="OnPrev"
                          HorizontalOptions="Center"
                          VerticalOptions="Center"
-                         Grid.Column="1"/>
+                         Grid.Column="1"
+                         x:Name="prevBtn"/>
 
             <ImageButton Source="flip.png"
                          HorizontalOptions="Center"
                          VerticalOptions="Center"
-                         BackgroundColor="#708D81"
                          Scale=".75"
                          Clicked="Flip"
-                         Grid.Column="2"/>
+                         Grid.Column="2"
+                         x:Name="flipBtn"/>
 
             <ImageButton Source="next.png"
                          HorizontalOptions="Center"
                          VerticalOptions="Center"
-                         BackgroundColor="#708D81"
                          Scale=".75"
                          Clicked="OnNext"
-                         Grid.Column="3"/>
+                         Grid.Column="3"
+                         x:Name="nextBtn"/>
 
             <ImageButton Source="download.png"
-                         BackgroundColor="#708D81"
                          HorizontalOptions="Center"
                          VerticalOptions="Center"
                          Scale=".75"
                          Clicked="OnSave"
-                         Grid.Column="4"/>
+                         Grid.Column="4"
+                         x:Name="saveBtn"/>
         </Grid>
 
     </Grid>

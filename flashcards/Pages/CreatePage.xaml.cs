@@ -1,5 +1,6 @@
 using System.Xml.Serialization;
 using System.Text.RegularExpressions;
+using System.Diagnostics;
 
 namespace flashcards;
 
@@ -10,7 +11,7 @@ public partial class CreatePage : ContentPage
     int index;
     string front, back, title;
 
-    public CreatePage()
+    public CreatePage(KnowitThemes theme)
     {
         InitializeComponent();
         deck = new Deck();
@@ -19,7 +20,25 @@ public partial class CreatePage : ContentPage
         front = "";
         back = "";
         title = "";
+        textEditor.FontSize = GetFontSize();
         UpdateNumberLabel();
+
+        //themes
+        bgGrid.BackgroundColor = theme.primary;
+        plusBtn.BackgroundColor = theme.primary;
+        trashBtn.BackgroundColor = theme.primary;
+        titleBar.BackgroundColor = theme.primaryDark;
+        cardNumLbl.TextColor = theme.secondary;
+        rectangleOne.BackgroundColor = theme.secondary;
+        rectangleTwo.BackgroundColor = theme.secondary;
+        topText.TextColor = theme.secondary;
+        titleBar.TextColor = theme.secondary;
+        bottomBar.BackgroundColor = theme.tertiary;
+        homeBtn.BackgroundColor = theme.tertiary;
+        prevBtn.BackgroundColor = theme.tertiary;
+        flipBtn.BackgroundColor = theme.tertiary;
+        nextBtn.BackgroundColor = theme.tertiary;
+        saveBtn.BackgroundColor = theme.tertiary;
     }
 
     void UpdateNumberLabel()
@@ -63,6 +82,16 @@ public partial class CreatePage : ContentPage
             textEditor.Text = front;
             UpdateNumberLabel();
         }
+    }
+
+    private int GetFontSize()
+    {
+        string path = "C:\\Users\\Public\\Documents\\knowit\\fontsize.txt";
+        if (!File.Exists(path))
+        {
+            File.WriteAllText(path, "45");
+        }
+        return Int32.Parse(File.ReadAllText(path));
     }
 
     private void OnNew(object sender, EventArgs e)
@@ -120,30 +149,52 @@ public partial class CreatePage : ContentPage
         }
     }
 
+    private string GetFolder()
+    {
+        try
+        {
+            string path = "C:\\Users\\Public\\Documents\\knowit\\path.txt";
+            if (!File.Exists(path))
+            {
+                File.WriteAllText(path, "C:\\Users\\Public\\Documents\\knowit");
+            }
+
+            return File.ReadAllText(path);
+        }
+        catch (Exception e)
+        {
+            Debug.Write(e.Message);
+            return e.Message;
+        }
+    }
+
     private void OnSave(object sender, EventArgs e)
     {
+        string fileName;
         title = titleBar.Text;
-        if (title != "")
+        XmlSerializer xs = new XmlSerializer(typeof(Deck));
+        string pathOne = GetFolder();
+        Debug.WriteLine(pathOne);
+        string pathTwo = pathOne + "\\Decks";
+        Debug.WriteLine(pathTwo);
+        if (!Directory.Exists(pathOne))
         {
-            XmlSerializer xs = new XmlSerializer(typeof(Deck));
-            string pathOne = "C:\\Users\\Public\\Documents\\knowit";
-            string pathTwo = "C:\\Users\\Public\\Documents\\knowit\\Decks";
-            if (!Directory.Exists(pathOne))
-            {
-                DirectoryInfo di = Directory.CreateDirectory(pathOne);
-                di = Directory.CreateDirectory(pathTwo);
-            }
-            if (!Directory.Exists(pathTwo))
-            {
-                DirectoryInfo di = Directory.CreateDirectory(pathTwo);
-            }
-            string fileName = pathTwo + "\\" + title + ".xml";
-
-            using (StreamWriter file = new StreamWriter(fileName))
-            {
-                xs.Serialize(file, deck);
-            }
+            DirectoryInfo di = Directory.CreateDirectory(pathOne);
+            di = Directory.CreateDirectory(pathTwo);
         }
+        if (!Directory.Exists(pathTwo))
+        {
+            DirectoryInfo di = Directory.CreateDirectory(pathTwo);
+        }
+        fileName = pathTwo + "\\" + title + ".xml";
+
+        deck.name = title;
+
+        using (StreamWriter file = new StreamWriter(fileName))
+        {
+            xs.Serialize(file, deck);
+        }
+        Debug.WriteLine(fileName);
         App.Current.MainPage = new MainMenuPage();
     }
 
@@ -152,5 +203,6 @@ public partial class CreatePage : ContentPage
     {
         if (frontOrBack == 0) front = e.NewTextValue;
         else back = e.NewTextValue;
+        deck.UpdateCard(front, back, index);
     }
 }

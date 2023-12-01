@@ -8,19 +8,58 @@ namespace flashcards
 {
     public partial class MainMenuPage : ContentPage
     {
+        KnowitThemes theme;
+
         Deck deck;
 
         int count = 0;
 
-        public MainMenuPage()
+        public MainMenuPage(string themeName = "green")
         {
             InitializeComponent();
+            themeName = GetThemeName();
+            theme = new KnowitThemes(themeName);
             deck = new Deck();
+
+            //theme
+            bgGrid.BackgroundColor = theme.primary;
+            rectOne.BackgroundColor = theme.secondary;
+            rectTwo.BackgroundColor = theme.secondary;
+            studyIt.TextColor = theme.tertiary;
+            createBtn.BackgroundColor = theme.secondary;
+            createBtn.TextColor = theme.primary;
+            learnBtn.BackgroundColor = theme.secondary;
+            learnBtn.TextColor = theme.primary;
+            settingsBtn.BackgroundColor = theme.secondary;
+            settingsBtn.TextColor = theme.primary;
+            bottomBar.BackgroundColor = theme.tertiary;
+
+        }
+
+        string GetThemeName()
+        {
+            string pathOne = "C:\\Users\\Public\\Documents\\knowit";
+            string pathTwo = "C:\\Users\\Public\\Documents\\knowit\\prefs.txt";
+            if (!File.Exists(pathTwo))
+            {
+                if (!Directory.Exists(pathOne))
+                {
+                    DirectoryInfo di = Directory.CreateDirectory(pathOne);
+                    di = Directory.CreateDirectory(pathOne);
+                }
+                File.WriteAllText(pathTwo, "green");
+            }
+            return File.ReadAllText(pathTwo);
         }
 
         private void OnCreate(object sender, EventArgs e)
         {
-            App.Current.MainPage = new CreatePage();
+            App.Current.MainPage = new CreatePage(theme);
+        }
+        
+        private void OnSettings(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new Pages.SettingsPage(theme);
         }
 
         private Deck LoadDeckFromFile(string filePath)
@@ -44,6 +83,11 @@ namespace flashcards
 
         private async void OnLearn(object sender, EventArgs e)
         {
+            OpenFile();
+        }
+
+        private async void OpenFile()
+        {
             try
             {
                 var result = await FilePicker.PickAsync(new PickOptions
@@ -65,7 +109,7 @@ namespace flashcards
                     if (deck != null)
                     {
                         // Successfully loaded the deck, do something with it
-                        App.Current.MainPage = new Pages.LearnPage(deck);
+                        App.Current.MainPage = new Pages.LearnPage(deck, theme);
                     }
                 }
             }

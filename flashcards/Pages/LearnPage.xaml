@@ -3,10 +3,132 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="flashcards.Pages.LearnPage"
              Title="LearnPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <Grid MinimumHeightRequest="600"
+      MinimumWidthRequest="800"
+      RowDefinitions="20, 70, 360, 10, 100"
+      ColumnDefinitions="50, 50, 50, 500, 50, 50, 50"
+      x:Name="bgGrid">
+
+        <VerticalStackLayout Grid.Column="5"
+                         Grid.Row="2"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Column="1"
+                         Grid.Row="2"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+
+            <Label Text=""
+               MinimumWidthRequest="40"
+               MinimumHeightRequest="40"
+               x:Name="cardNumLbl"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"
+               FontFamily="Urbanist"
+               Padding="5"
+               FontSize="40"
+               TextColor="Black"/>
+
+
+        </VerticalStackLayout>
+
+        <Rectangle Grid.Column="1"
+           Grid.Row="0"
+           Grid.RowSpan="6"
+           x:Name="rectangleOne"
+               Rotation="45"
+               TranslationY="-200"/>
+
+
+        <Rectangle Grid.Column="5"
+           Grid.Row="0"
+           Grid.RowSpan="6"
+                   x:Name="rectangleTwo"
+               Rotation="-45"
+               TranslationY="-200" />
+
+        <Label Text="learn"
+       FontFamily="Urbanist"
+               x:Name="topText"
+       Grid.Column="3"
+       Grid.Row="1"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       FontSize="80"/>
+
+        <Grid Grid.Row="2"
+          Grid.Column="3"
+          RowDefinitions="300, 70">
+
+            <Label BackgroundColor="White"
+                Grid.Row="0"
+                Margin="10"
+                TextColor="Black"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                FontSize="45"
+                x:Name="textEditor"/>
+
+            <Label x:Name="titleBar"
+               Grid.Row="1"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontSize="30"
+               Text="Deck Name"
+               FontFamily="Urbanist" />
+
+        </Grid>
+
+        <Grid x:Name="bottomBar"
+        Grid.Row="4"
+        Grid.Column="0"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        Grid.ColumnSpan="7"
+        MinimumHeightRequest="200"
+        MinimumWidthRequest="800"
+        RowDefinitions="90"
+        ColumnDefinitions="160, 160, 160, 160, 160">
+
+            <ImageButton Source="home.png"
+                         x:Name="homeBtn"
+                     Scale=".75"
+                     Grid.Column="0"
+                     Clicked="OnHome"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center" />
+
+            <ImageButton Source="prev.png"
+                         x:Name="prevBtn"
+                     Scale=".75"
+                     Clicked="OnPrev"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     Grid.Column="1"/>
+
+            <ImageButton Source="flip.png"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                         x:Name="flipBtn"
+                     Scale=".75"
+                     Clicked="Flip"
+                     Grid.Column="2"/>
+
+            <ImageButton Source="next.png"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                         x:Name="nextBtn"
+                     Scale=".75"
+                     Clicked="OnNext"
+                     Grid.Column="3"/>
+
+        </Grid>
+
+    </Grid>
+
 </ContentPage>

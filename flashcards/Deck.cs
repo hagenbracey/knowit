@@ -9,6 +9,7 @@ namespace flashcards
     [Serializable]
     public class Deck
     {
+        public string name;
         public List<Flashcard> Cards { get; set; }
 
         public Deck()
